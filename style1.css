@@ -1,0 +1,23 @@
+
+<style type="text/css">
+    *,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    background-image: url("Photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+
+
+
+</style>
