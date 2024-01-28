@@ -32,7 +32,7 @@ if ($stmt) {
 }
     } else {
         // Authentication failed, redirect to login page with an error message
-        header("Location: index.php?error=1");
+        header("Location: index.html?error=1");
         exit();
     }
 } else {
