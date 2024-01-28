@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $stmt->execute([$name, $email, $hashedPassword]);
         // Redirect to login page after successful registration
-        header("Location: index.php");
+        header("Location: index.html");
         exit();
     } catch (PDOException $e) {
         // Handle registration error (e.g., duplicate email)
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // Invalid request method, redirect to sign-up page
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 ?>
